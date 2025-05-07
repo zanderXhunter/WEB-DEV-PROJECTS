@@ -1,170 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="css/flexbox.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-       <div class="profile-card">
-        <div class="profile-image"><img src = images/logopic.png></div>
-     <div class="profile-text">
-        <h2>Zander Luntayao</h2>
-        <p>BS Information Technology</p>
-        </div>
+  <header class="header">
+    <div class="logo"> <img src= images/logo.png> </div>
+    <nav class="nav">
+      <a href="#">Home</a>
+      <a href="#">Menu</a>
+      <a href="#">Our Story</a>
+      <a href="#">Contact Us</a>
+      <div class="search">
+        <input type="text" placeholder="Search">
+      </div>
+    </nav>
+  </header>
+
+   <section class="hero-section">
+    <div class="hero-text">
+      <h1>IT'S TIME <br> FOR HIKING</h1>
+      <h2>LOREMIPSUM DOLOR</h2>
+      <a href="#" class="read-more-btn">READ MORE</a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
     </div>
-        <div class= "nav">
-            <a href="#">Work</a>
-            <a href="#">About Me</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
-            <button class="hire-btn">Hire Me</button>
-        </div>
-    </header>
+  </section>
 
-    <div class="hero">
-        <div class="hero-text">
-            <h1>Hello, I'm </h1><p><strong>Zander Luntayao</strong></p>
-            <p1>BS Information Technology</p1>
-            <div class="social-icons">
-                <a href="#"><img src = images/behancelogo.png></a>
-                <a href="#"><img src = images/dribblelogo.png></a>
-                <a href="#"><img src = images/linkedinlogo.png></a>
-                <a href="#"><img src = images/fblogo.png></a>
-                <a href="#"><img src = images/xlogo.png></a>
-            </div>
-            <div class="hero-buttons">
-                <button class="hire-btn2">Hire Me</button>
-                <button class="resume-btn">See My Resume</button>
-            </div>
-        </div>
-        <div class="hero-image"><img src = images/profile.png></div>
+  
+  <section class="lets-go">
+    <h2>LET'S GO</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+    <div class="cards">
+      <div class="card">
+        <img src="images/hiking1.png" alt="Hiking Image 1">
+        <h3>Lorem ipsum</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing...</p>
+      </div>
+      <div class="card">
+        <img src="images/hiking2.png" alt="Hiking Image 2">
+        <h3>Lorem ipsum</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing...</p>
+      </div>
+      <div class="card">
+        <img src="images/hiking3.png" alt="Hiking Image 3">
+        <h3>Lorem ipsum</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing...</p>
+      </div>
     </div>
+    <a href="#" class="showmore">Show More</a>
+  </section>
+  <div class="promo-wrapper">
+  <div class="promo-grid">
+  <div class="promo-image">
+    <img src="images/hiking4.png" alt="Hikers on mountain">
+  </div>
+  <div class="promo-text promo-dark">
+    <h2>Discount up to 50% All Excursions</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+    <a href="#" class="btn">Read More</a>
+  </div>
 
-    <section class="portfolio">
-        <div class="portbttn">
-                <a href="#">All</a>
-                <a href="#">App</a>
-                <a href="#">Website</a>
-                <a href="#">Interaction</a>
-            </div>
-        <div class="projects">
-            <div class="project-card">
-                <div class="project-image"><a href="file:///C:/Users/HP/OneDrive/Desktop/LCC%20Website/Web%20Dev/lcc.html" target="_blank" ><img src = images/lccreplica.png></a></div>
-                <div class="project-info">
-                    <p>WEB DEV</p>
-                    <h3>LCC-B Website</h3>
-                    <span>2025</span>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-image"><a href="file:///C:/Users/HP/OneDrive/Desktop/New%20Quiz/index3.html" target="_blank" ><img src = images/ignitemediawebsite.png></a></div>
-                <div class="project-info">
-                    <p>WEB DEV</p>
-                    <h3>Ignite Media Website</h3>
-                    <span>2025</span>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-image"> <a href="https://www.canva.com/design/DAGbwr7a03g/urN7zD6rbvyjaaAcvJCxjw/edit?utm_content=DAGbwr7a03g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" ><img src = images/zllogo.png></a></div>
-                <div class="project-info">
-                    <p>GRAPHIC DESIGN</p>
-                    <h3>Personal Logo</h3>
-                    <span>2025</span>
-                </div>
-            </div>
-        </div>
-        <div class="projects">
-            <div class="project-card">
-                <div class="project-image"><img src = images/weddinginv.png></div>
-                <div class="project-info">
-                    <p>GRAPHIC DESIGN</p>
-                    <h3>Wedding Invitation</h3>
-                    <span>2025</span>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-image"><img src = images/illquiz.png></div>
-                <div class="project-info">
-                    <p>EDUCATIONAL MATERIAL</p>
-                    <h3>Illustrative Quiz Template</h3>
-                    <span>2024</span>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-image"><a href="https://www.canva.com/design/DAGbwr7a03g/urN7zD6rbvyjaaAcvJCxjw/edit?utm_content=DAGbwr7a03g&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" ><img src = images/ytchannel.png></a></div>
-                <div class="project-info">
-                    <p>SOCIAL MEDIA DESIGN</p>
-                    <h3>Youtube Channel Profile</h3>
-                    <span>2025</span>
-                </div>
-            </div>
-        </div>
-        <div class="button3">
-                <button class="loadmorebttn">LOAD MORE WORK</button>
-            </div>
-    </section>
-     <section class="about-section">
-        <div class="image-container">
-            <img src="images/aboutme.png">
-        </div>
-        <div class="content">
-            <h2>ABOUT ME</h2>
-            <h1>WHO AM I</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Maecenas pellentesque eu enim eget luctus. Sed augue felis, 
-                facilisis et elementum vitae, aliquam sit amet ante. 
-                Phasellus porttitor finibus neque vel vehicula.
-            </p>
-            <div class="buttons">
-                <button class="hire-btn">HIRE ME</button>
-                <button class="resume-btn">SEE MY RESUME</button>
-            </div>
-        </div>
-    </section>
+  <div class="promo-text promo-light">
+    <h2>January’s Promo:<br>Buy 1 Get 1 Free!</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+    <a href="#" class="btn">Read More</a>
+  </div>
+  <div class="promo-image">
+    <img src="images/hiking5.png" alt="Friends hiking">
+  </div></div></div>
+</div>
 
-    <div class="button3">
-                <button class="habitsbutton">HABITS</button>
-            </div>
-
-    <div class="projects">
-            <div class="project-card">
-                <div class="project-image"><img src = images/habits1.png></div>
-                <div class="project-info">
-                    <h3>OUTDOOR SPORTS</h3>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-image"><img src = images/habits2.png></div>
-                <div class="project-info">
-                    
-                    <h3>E-SPORTS</h3>
-                    
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-image"><img src = images/habits3.png></div>
-                <div class="project-info">
-                    
-                    <h3>VOLUNTEERING / GIVING BACK</h3>
-                    
-                </div>
-            </div>
-        </div>
-      <section class="styled-section">
-        <div class="text-container">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Maecenas pellentesque eu enim eget luctus. Sed augue felis, 
-                facilisis et elementum vitae, aliquam sit amet ante. Sed 
-                iaculis eros sem, elementum consequat est consequat eu. 
-                Quisque aliquet a ipsum nec tincidunt. Nulla vitae rhoncus leo.
-            </p>
-        </div>
-        <div class="circle"></div>
-    </section>
+<div class = "hikingtxt"> <h1> Hiking in the mountains </h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. </p> </div>
+<div class = "hikingexplore"> </div>
+<div class="lasts">
+      <div class="last">
+        <h3>Lorem ipsum</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+      </div>
+      <div class="last">
+        <h3>Lorem ipsum</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+      </div>
+      <div class="last">
+        <h3>Lorem ipsum</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+      </div> </div>
+    <div class= "loremliwat">
+    <h1> " </h1>
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+    <h2> Lorem Ipsum </h2>
+  </div>
+  <div class ="tth">
+  <div class="titlehere">
+    <h2>Title Here</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+  </div>
+  <div class="Subsrcibe">
+        <input type="text" placeholder="Your Email"> <a href="#" class="subs">Subsribe</a>
+      </div> </div>
 </body>
+<footer class="footer">
+    <div class="footer-column">
+      <h2>Title Here</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at dignissim nunc, id maximus ex. Etiam nec dignissim elit, at dignissim enim.
+      </p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-instagram"><img src= "images/iglogo.png"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"><img src= "images/fblogo.png"></i></a>
+        <a href="#"><i class="fab fa-twitter"><img src= "images/xlogo.png"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"><img src= "images/walogo.png"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-column">
+      <h3>About</h3>
+      <ul>
+        <li><a href="#">History</a></li>
+        <li><a href="#">Our Team</a></li>
+        <li><a href="#">Brand Guidelines</a></li>
+        <li><a href="#">Terms & Condition</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h3>Services</h3>
+      <ul>
+        <li><a href="#">How to Order</a></li>
+        <li><a href="#">Our Product</a></li>
+        <li><a href="#">Order Status</a></li>
+        <li><a href="#">Promo</a></li>
+        <li><a href="#">Payment Method</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h3>Other</h3>
+      <ul>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Privacy</a></li>
+      </ul>
+    </div>
+  </footer>
 </html>

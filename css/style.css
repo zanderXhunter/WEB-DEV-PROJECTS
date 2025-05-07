@@ -1,0 +1,435 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  color: #333;
+  line-height: 1.6;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5%;
+  background-color: #f8f8f8;
+}
+
+.logo{
+  width: 90px;
+  height: 80px;
+}
+.logo img {
+  width: 90px;
+  height: 80px;
+}
+
+.nav{
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 5%;
+
+}
+.nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+.search input {
+  padding: 5px;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  background-image: url('../images/hiking.png');
+  height: 550px;
+  width: 100%;
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-family: 'Montserrat', 'Poppins', sans-serif; 
+  font-size: 64px;
+  font-weight: 800;
+  color: #F7931E; 
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.hero-text h2 {
+  font-size: 20px;
+  color: #333;
+  letter-spacing: 2px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.hero-text p {
+  font-size: 1rem;
+  color: #000000;
+  margin-left: 50px;
+  margin-top: 20px;
+  max-width: 350px;
+}
+
+.read-more-btn {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 75px;
+  margin-top: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.lets-go {
+  padding: 60px 5%;
+  text-align: center;
+}
+
+.lets-go h2 {
+  font-family: 'Montserrat', 'Poppins', sans-serif;
+  font-weight: 900;
+  color: #F4A443;
+  font-size: 44px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.lets-go p{
+  font-size: 20px;
+  color: #333;
+  letter-spacing: 2px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.card {
+  background: #eee;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px;
+  text-align: left;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin: 15px;
+  font-size: 1.2rem;
+}
+
+.card p {
+  margin: 0 15px 15px 15px;
+  font-size: 0.9rem;
+}
+
+.showmore{
+  margin-top: 30px;
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.promo-wrapper {
+  max-width: 1200px; 
+  margin: 0 auto;
+  padding: 40px 20px; 
+}
+
+.promo-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+}
+
+.promo-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.promo-text {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.promo-dark {
+  background-color: #8C7B70; 
+  color: #ffffff;
+}
+
+.promo-light {
+  background-color: #F4A443; 
+  color: #ffffff;
+}
+
+.promo-text h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.promo-text p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.btn {
+  background-color: #F4A443;
+  color: white;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-weight: 600;
+  text-align: center;
+  display: inline-block;
+  transition: background 0.3s ease;
+  width: 50%;
+
+}
+
+.promo-dark .btn {
+  background-color: #F4A443;
+}
+
+.promo-light .btn {
+  background-color: #ffffff;
+  color: #F4A443;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.hikingtxt {
+  font-family: 'Montserrat', 'Poppins', sans-serif;
+  color: #fff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 60px 5%;
+  text-align: center;
+  background-image: url('../images/hikingbgd.png');
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 250px;
+}
+
+.hikingtxt h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.hikingtxt p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.hikingexplore {
+  background-image: url('../images/hikingexlpore.png');
+  background-size: fit;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 550px;
+
+}
+.lasts {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.last {
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px;
+  text-align: left;
+}
+
+.last h3 {
+  margin: 15px;
+  font-size: 1.2rem;
+  color:#F4A443 ;
+}
+
+.last p {
+  margin: 0 15px 15px 15px;
+  font-size: 0.9rem;
+}
+.loremliwat {
+  padding: 60px 5%;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 500px;
+  margin-left: 35%;
+}
+
+.loremliwat h1 {
+  font-size: 38px;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+
+.loremliwat p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+.loremliwat h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+.tth {
+    background-color:#F4A443;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.titlehere {
+  padding: 60px 5%;
+  text-align: center;
+  margin-top: 30px;
+  max-width: 50%;
+  margin-left: 25%;
+
+}
+
+.titlehere h2 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #fff;
+
+}
+
+.titlehere p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+  colore:#333;
+}
+.Subsribe input {
+  padding: 0px;
+}
+.subs {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 60px;
+  background-color: #8b7f76;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 220px;
+  margin-right: 40px;
+}
+
+.footer-column h2,
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color:#fff;
+}
+
+.footer-column p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  max-width: 300px;
+  color: #fff;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #8b7f76;
+  background: white;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  font-size: 14px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+  background: #ffffffcc;
+  color: #5e524a;
+}
+
+
+
